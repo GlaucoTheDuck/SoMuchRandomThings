@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.pandariin.smrt.SMRTThingsSMRT"
+			"net.pandariin.smrt.SMRT"
 		],
 		"fabric-datagen": [
 			"net.pandariin.smrt.SMRTDataGenerator"
