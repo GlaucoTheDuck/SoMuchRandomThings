@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "smrt:pink_garnet_block",
+    "smrt:raw_pink_garnet_block",
+    "smrt:pink_garnet_ore",
+    "smrt:pink_garnet_deepslate_ore"
+  ]
+}
