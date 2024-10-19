@@ -4,6 +4,10 @@
 
   "item.smrt.chisel": "Chisel",
 
+  "item.smrt.cauliflower": "CauliFlower",
+
+  "item.smrt.starlight_ashes": "StarLight Ashes",
+
   "block.smrt.pink_garnet_block": "Block of Pink Garnet",
   "block.smrt.raw_pink_garnet_block": "Block of Raw Pink Garnet",
   "block.smrt.pink_garnet_ore": "Pink Garnet Ore",
@@ -11,6 +15,8 @@
 
   "itemgroup.smrt.pink_garnet_blocks": "Pink Garnet Blocks",
   "itemgroup.smrt.pink_garnet_items": "Pink Garnet Items",
+
+  "block.smrt.magic_block": "Magic Block"
 
 
 }
