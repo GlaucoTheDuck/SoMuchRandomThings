@@ -16,8 +16,14 @@
   "itemgroup.smrt.pink_garnet_blocks": "Blocos de Garnet Rosa",
   "itemgroup.smrt.pink_garnet_items": "Items de Garnet Rosa",
 
-  "block.smrt.magic_block": "Bloco Mágico"
+  "block.smrt.magic_block": "Bloco Mágico",
 
+  "tooltip.smrt.magic_block.l1": "Este bloco é realmente muito §9MÁGICO§r",
 
+  "tooltip.smrt.cauliflower.l1": "Uma flor para o Paladar",
+
+  "tooltip.smrt.chisel.shift_down": "Este item transforma blocos em Tijolos!",
+
+  "tooltip.smrt.generic.press_shift": "Aperte §eShift§r para mais Informações!"
 
 }

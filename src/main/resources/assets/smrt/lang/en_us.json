@@ -16,7 +16,13 @@
   "itemgroup.smrt.pink_garnet_blocks": "Pink Garnet Blocks",
   "itemgroup.smrt.pink_garnet_items": "Pink Garnet Items",
 
-  "block.smrt.magic_block": "Magic Block"
+  "block.smrt.magic_block": "Magic Block",
 
+  "tooltip.smrt.magic_block.l1": "This item is really, really §9MAGIC§r",
 
+  "tooltip.smrt.cauliflower.l1": "A flower for the Palate",
+
+  "tooltip.smrt.chisel.shift_down": "This item chisels blocks into Bricks!",
+
+  "tooltip.smrt.generic.press_shift": "Press §eShift§r for more Information!"
 }
