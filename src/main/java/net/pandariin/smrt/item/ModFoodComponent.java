@@ -1,4 +1,4 @@
-package net.pandariin.smrt.items;
+package net.pandariin.smrt.item;
 
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;

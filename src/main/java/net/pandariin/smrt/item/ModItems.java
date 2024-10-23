@@ -1,4 +1,4 @@
-package net.pandariin.smrt.items;
+package net.pandariin.smrt.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -10,7 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.pandariin.smrt.SMRT;
-import net.pandariin.smrt.items.custom.ChiselItem;
+import net.pandariin.smrt.item.custom.ChiselItem;
 
 import java.util.List;
 
@@ -20,7 +20,7 @@ public class ModItems {
 
     public static final Item CHISEL =  registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
-    public static final Item STARLIGHTASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
+    public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponent.CAULIFLOWER)){
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -30,6 +30,9 @@ public class ModItems {
             super.appendTooltip(stack, context, tooltip, type);
         }
     });
+
+
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(SMRT.MOD_ID, name), item);
     }
@@ -41,7 +44,7 @@ public class ModItems {
             entries.add(PINK_GARNET);
             entries.add(RAW_PINK_GARNET);
 
-            entries.add(ModItems.STARLIGHTASHES);
+            entries.add(ModItems.STARLIGHT_ASHES);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(CAULIFLOWER);

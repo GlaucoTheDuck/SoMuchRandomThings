@@ -2,16 +2,16 @@
 	"schemaVersion": 1,
 	"id": "smrt",
 	"version": "${version}",
-	"name": "So Much Random Things (SMRT)",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "So Much Random Things",
+	"description": "Tutorial Mod by Pandariin :D",
 	"authors": [
-		"Me!"
+		"Pandariin!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://kaupenjoe.net",
+		"sources": "https://github.com/GlaucoTheDuck/SoMuchRandomThings"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/smrt/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -21,8 +21,8 @@
 		"fabric-datagen": [
 			"net.pandariin.smrt.SMRTDataGenerator"
 		],
-		"Client": [
-			"net.pandariin.smrt.SMRTModClient"
+		"client": [
+			"net.pandariin.smrt.SMRTClient"
 		]
 	},
 	"mixins": [

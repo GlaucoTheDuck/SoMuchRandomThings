@@ -24,5 +24,17 @@
 
   "tooltip.smrt.chisel.shift_down": "This item chisels blocks into Bricks!",
 
-  "tooltip.smrt.generic.press_shift": "Press §eShift§r for more Information!"
+  "tooltip.smrt.generic.press_shift": "Press §eShift§r for more Information!",
+
+  "block.smrt.pink_garnet_door": "Pink Garnet Door",
+  "block.smrt.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
+  "block.smrt.pink_garnet_fence": "Pink Garnet Fence",
+  "block.smrt.pink_garnet_button": "Pink Garnet Button",
+  "block.smrt.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
+  "block.smrt.pink_garnet_wall": "Pink Garnet Wall",
+  "block.smrt.pink_garnet_stair": "Pink Garnet Stair",
+  "block.smrt.pink_garnet_slab": "Pink Garnet Slab",
+  "block.smrt.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+
+  "block.smrt.pink_garnet_lamp": "Pink Garnet Lamp"
 }

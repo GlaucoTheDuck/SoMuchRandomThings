@@ -1,4 +1,4 @@
-package net.pandariin.smrt.items;
+package net.pandariin.smrt.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -23,7 +23,7 @@ public class ModItemGroups {
                                 entries.add(ModItems.CHISEL);
                                 entries.add(ModItems.CAULIFLOWER);
 
-                                entries.add(ModItems.STARLIGHTASHES);
+                                entries.add(ModItems.STARLIGHT_ASHES);
                             })
                     .build());
 
@@ -39,6 +39,18 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
+
+                        entries.add(ModBlocks.PINK_GARNET_DOOR);
+                        entries.add(ModBlocks.PINK_GARNET_TRAPDOOR);
+                        entries.add(ModBlocks.PINK_GARNET_FENCE);
+                        entries.add(ModBlocks.PINK_GARNET_BUTTON);
+                        entries.add(ModBlocks.PINK_GARNET_FENCE_GATE);
+                        entries.add(ModBlocks.PINK_GARNET_WALL);
+                        entries.add(ModBlocks.PINK_GARNET_STAIR);
+                        entries.add(ModBlocks.PINK_GARNET_SLAB);
+                        entries.add(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
+
+                        entries.add(ModBlocks.PINK_GARNET_LAMP);
                     })
                     .build());
 

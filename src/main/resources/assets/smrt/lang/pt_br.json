@@ -24,6 +24,18 @@
 
   "tooltip.smrt.chisel.shift_down": "Este item transforma blocos em Tijolos!",
 
-  "tooltip.smrt.generic.press_shift": "Aperte §eShift§r para mais Informações!"
+  "tooltip.smrt.generic.press_shift": "Aperte §eShift§r para mais Informações!",
+
+  "block.smrt.pink_garnet_door": "Porta de Garnet Rosa",
+  "block.smrt.pink_garnet_trapdoor": "Alçapão de Garnet Rosa",
+  "block.smrt.pink_garnet_fence": "Cerca de Garnet Rosa",
+  "block.smrt.pink_garnet_button": "Botão de Garnet Rosa",
+  "block.smrt.pink_garnet_fence_gate": "Portão de Garnet Rosa",
+  "block.smrt.pink_garnet_wall": "Muro de Garnet Rosa",
+  "block.smrt.pink_garnet_stair": "Escada de Garnet Rosa",
+  "block.smrt.pink_garnet_slab": "Laje de Garnet Rosa",
+  "block.smrt.pink_garnet_pressure_plate": "Placa de Pressão de Garnet Rosa",
+
+  "block.smrt.pink_garnet_lamp": "Lampada de Garnet Rosa"
 
 }

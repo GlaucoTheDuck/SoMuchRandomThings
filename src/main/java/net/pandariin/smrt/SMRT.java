@@ -4,9 +4,8 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.pandariin.smrt.block.ModBlocks;
-import net.pandariin.smrt.items.ModFoodComponent;
-import net.pandariin.smrt.items.ModItemGroups;
-import net.pandariin.smrt.items.ModItems;
+import net.pandariin.smrt.item.ModItemGroups;
+import net.pandariin.smrt.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,7 +22,7 @@ public class SMRT implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		FuelRegistry.INSTANCE.add(ModItems.STARLIGHTASHES, 600);
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 		LOGGER.info("Hello Fabric world!");
 	}
 }
