@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "on_state=false": {
+      "model": "smrt:block/pink_garnet_lamp"
+    },
+    "on_state=true": {
+      "model": "smrt:block/pink_garnet_lamp_on"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "smrt:pink_garnet_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "smrt:pink_garnet"
+  }
+}

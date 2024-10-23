@@ -1,0 +1,6 @@
+// 1.21.1	2024-10-22T17:20:30.4939217	So Much Random Things/Tags for minecraft:block
+37296fdcbd3df812eaa24ab3125a0125176c9296 data\minecraft\tags\block\fences.json
+75c4cda6e78442abc26ce4b5ef117be7674f9f9b data\minecraft\tags\block\fence_gates.json
+1f1c27c4487ef58bd115ec78787070313f58e43d data\minecraft\tags\block\walls.json
+fedd87b9d246943f0badbc7993d9f9efe94562f9 data\minecraft\tags\block\mineable\pickaxe.json
+c9a988e278af4e7c344b75bdf0802b8cf4eba7fa data\minecraft\tags\block\needs_iron_tool.json
