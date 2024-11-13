@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "d": {
+    "D": {
       "item": "minecraft:diamond_block"
     },
-    "g": {
+    "G": {
       "item": "smrt:pink_garnet"
     }
   },
   "pattern": [
-    "ggg",
-    "gdg",
-    "ggg"
+    "GGG",
+    "GDG",
+    "GGG"
   ],
   "result": {
     "count": 1,

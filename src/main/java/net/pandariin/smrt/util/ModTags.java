@@ -9,10 +9,13 @@ import net.pandariin.smrt.SMRT;
 
 public class ModTags {
     public static class Blocks {
+        public static TagKey<Block> NEED_PINK_GARNET_TOOL = createTag("need_pink_garnet_tool");
+        public static TagKey<Block> INCORRECT_FOR_PINK_GARNET_TOOL = createTag("incorrect_for_pink_garnet_tool");
 
         private static TagKey<Block> createTag(String name){
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(SMRT.MOD_ID, name));
         }
+
 
     }
 

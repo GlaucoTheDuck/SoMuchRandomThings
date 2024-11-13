@@ -7,6 +7,7 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
@@ -34,11 +35,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_PINK_GARNET, RecipeCategory.DECORATIONS, ModBlocks.RAW_PINK_GARNET_BLOCK);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MAGIC_BLOCK)
-                .input('g', ModItems.PINK_GARNET)
-                .input('d', Blocks.DIAMOND_BLOCK)
-                .pattern("ggg")
-                .pattern("gdg")
-                .pattern("ggg")
+                .input('G', ModItems.PINK_GARNET)
+                .input('D', Blocks.DIAMOND_BLOCK)
+                .pattern("GGG")
+                .pattern("GDG")
+                .pattern("GGG")
                 .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModBlocks.MAGIC_BLOCK))
                 .offerTo(recipeExporter);
 
@@ -46,6 +47,49 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.MAGIC_BLOCK)
                 .criterion(hasItem(ModBlocks.MAGIC_BLOCK), conditionsFromItem(ModBlocks.MAGIC_BLOCK))
                 .offerTo(recipeExporter, Identifier.of(SMRT.MOD_ID, "raw_pink_garnet_from_magic_block"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PINK_GARNET_SWORD)
+                        .input('G', ModItems.PINK_GARNET)
+                        .input('S', Items.STICK)
+                        .pattern(" G ")
+                        .pattern(" G ")
+                        .pattern(" S ")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET_SWORD))
+                        .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PINK_GARNET_PICKAXE)
+                        .input('G', ModItems.PINK_GARNET)
+                        .input('S', Items.STICK)
+                        .pattern("GGG")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET_PICKAXE))
+                        .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PINK_GARNET_AXE)
+                        .input('G', ModItems.PINK_GARNET)
+                        .input('S', Items.STICK)
+                        .pattern("GG")
+                        .pattern("GS")
+                        .pattern(" S")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET_AXE))
+                        .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PINK_GARNET_SHOVEL)
+                        .input('G', ModItems.PINK_GARNET)
+                        .input('S', Items.STICK)
+                        .pattern("G")
+                        .pattern("S")
+                        .pattern("S")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET_SHOVEL))
+                        .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PINK_GARNET_HOE)
+                        .input('G', ModItems.PINK_GARNET)
+                        .input('S', Items.STICK)
+                        .pattern("GG")
+                        .pattern(" S")
+                        .pattern(" S")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET_HOE))
+                        .offerTo(recipeExporter);
+
 
         createFenceRecipe(ModBlocks.PINK_GARNET_FENCE, Ingredient.ofItems(ModItems.PINK_GARNET));
         createDoorRecipe(ModBlocks.PINK_GARNET_DOOR, Ingredient.ofItems(ModItems.PINK_GARNET));
